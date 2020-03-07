@@ -1,7 +1,7 @@
 <?php
 
 // Setup
-
+define('TINY_DEV_MODE', true);
 
 // Inc
 include ( get_theme_file_path('/inc/front/enqueue.php'));
