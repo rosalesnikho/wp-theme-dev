@@ -116,7 +116,8 @@
 							'theme_location' => 'primary',
 							'container'      => false,
 							'fallback_cb'    => false,
-							'depth'          => 4
+							'depth'          => 4,
+                            'walker'         => new Tiny_Custom_Nav_Walker
 						] );
 					}
 					?>
