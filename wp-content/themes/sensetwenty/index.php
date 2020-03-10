@@ -1,4 +1,4 @@
-
+<?php get_header() ?>
 
     <!-- Content
 	============================================= -->
@@ -244,10 +244,8 @@
                                 <a href="#">coupons</a>
                                 <a href="#">modern</a>
                             </div>
-
                         </div>
                     </div>
-
                 </div><!-- .sidebar end -->
 
             </div>
@@ -256,3 +254,4 @@
 
     </section><!-- #content end -->
 
+<?php get_footer(); ?>
