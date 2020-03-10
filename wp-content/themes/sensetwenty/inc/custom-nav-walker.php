@@ -1,5 +1,5 @@
 <?php
-// Class for traversing multi-level menus 
+// Class for traversing multi-level menus
 class Tiny_Custom_Nav_Walker extends Walker_Nav_Menu {
 	// Appends classes to the WP Custom Menu
 	public function  start_lvl( &$output, $depth = 0, $args = [] ) {
