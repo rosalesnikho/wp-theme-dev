@@ -5,31 +5,25 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<!-- Stylesheets  ============================================= -->
+	<!-- Stylesheets ============================================= -->
 	<?php wp_head() ?>
-
-
-	<!-- Document Title
-	  ============================================= -->
-	<title>Index Template</title>
+	<!-- Document Title ============================================= -->
+	<title></title>
 
 </head>
 
-<body class="stretched no-transition">
+<body <?php body_class('stretched no-transition');?>
 
-<!-- Document Wrapper
-============================================= -->
+<!-- Document Wrapper ============================================= -->
 <div id="wrapper" class="clearfix">
-	<!-- Top Bar
-	============================================= -->
+	<!-- Top Bar ============================================= -->
 	<div id="top-bar" class="dark">
 
 		<div class="container clearfix">
 
 			<div class="col_half nobottommargin">
 
-				<!-- Top Links
-				============================================= -->
+				<!-- Top Links ============================================= -->
 				<div class="top-links">
 					<ul>
 						<li><a href="#">Home</a></li>
@@ -42,8 +36,7 @@
 
 			<div class="col_half fright col_last nobottommargin">
 
-				<!-- Top Social
-				============================================= -->
+				<!-- Top Social ============================================= -->
 				<div id="top-social">
 					<ul>
 						<li>
@@ -82,14 +75,12 @@
 
 	</div><!-- #top-bar end -->
 
-	<!-- Header
-	============================================= -->
+	<!-- Header ============================================= -->
 	<header id="header" class="sticky-style-2">
 
 		<div class="container clearfix">
 
-			<!-- Logo
-			============================================= -->
+			<!-- Logo ============================================= -->
 			<div id="logo">
 				<a href="#" class="standard-logo">Udemy</a>
 			</div><!-- #logo end -->
@@ -102,8 +93,7 @@
 
 		<div id="header-wrap">
 
-			<!-- Primary Navigation
-			============================================= -->
+			<!-- Primary Navigation ============================================= -->
 			<nav id="primary-menu" class="style-2">
 
 				<div class="container clearfix">
@@ -121,8 +111,7 @@
 						] );
 					}
 					?>
-					<!-- Top Cart
-					============================================= -->
+					<!-- Top Cart ============================================= -->
 					<div id="top-cart">
 						<a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
 						<div class="top-cart-content">
@@ -160,8 +149,7 @@
 						</div>
 					</div><!-- #top-cart end -->
 
-					<!-- Top Search
-					============================================= -->
+					<!-- Top Search ============================================= -->
 					<div id="top-search">
 						<a href="#" id="top-search-trigger">
 							<i class="icon-search3"></i><i class="icon-line-cross"></i>
