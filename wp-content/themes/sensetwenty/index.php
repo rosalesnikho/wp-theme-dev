@@ -117,7 +117,7 @@
 							'container'      => false,
 							'fallback_cb'    => false,
 							'depth'          => 4,
-//                            'walker'         => new Tiny_Custom_Nav_Walker
+                            'walker'         => new Tiny_Custom_Nav_Walker
 						] );
 					}
 					?>
