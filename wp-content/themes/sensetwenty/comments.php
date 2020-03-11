@@ -34,7 +34,7 @@ if ( post_password_required() ) {
 				    <div class="comment-content clearfix">
 
 					    <div class="comment-author">
-						    <?php comment_author();?>> <span><?php comment_date()?></span>
+						    <?php comment_author();?><span><?php comment_date()?></span>
 					    </div>
 
 					    <p>
