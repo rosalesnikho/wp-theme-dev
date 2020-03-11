@@ -60,9 +60,11 @@
                         <div class="col-12">
 
                             <?php
-                            next_post_link('&larr; Older');
+                            next_posts_link('&larr; Older');
+                            ?>
 
-                            previous_post_link('Newer &rarr;');
+                            <?php
+                            previous_posts_link('Newer &rarr;');
                             ?>
 <!--                            <a href="#" class="btn btn-outline-secondary float-left">-->
 <!---->

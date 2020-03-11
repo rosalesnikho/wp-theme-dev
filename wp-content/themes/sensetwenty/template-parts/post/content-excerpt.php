@@ -24,14 +24,14 @@
     <ul class="entry-meta clearfix">
         <li><i class="icon-calendar3"></i> <?php echo get_the_date()?></li>
         <li>
-            <a href="<?php the_permalink();?>">
+            <a href="<?php the_permalink(); ?>">
                 <i class="<?php echo get_the_author_link(get_the_author_meta('ID'))?>"></i>
                 <?php the_author();?>
             </a>
         </li>
         <li>
-            <i class="icon-folder-open"></i>
-            <?php the_category(' ');?>
+            <i class="icon-folder-open"> </i>
+	        <?php the_category(' ');?>
         </li>
         <li>
             <a href="<?php the_permalink();?>">
