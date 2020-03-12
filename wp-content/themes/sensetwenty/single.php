@@ -167,7 +167,7 @@
 
 									if ( $rp_query->have_posts() ) {
 										while ( $rp_query->have_posts() ) {
-											$rp_query->have_posts();
+											$rp_query->the_post();
 
 											?>
 
@@ -177,7 +177,7 @@
 													?>
                                                     <div class="entry-image">
                                                         <a href="<?php the_permalink(); ?>">
-                                                            <img src="<?php the_post_thumbnail( 'thumbnail' ); ?>">
+                                                            <?php the_post_thumbnail( 'thumbnail' ) ?>
                                                         </a>
                                                     </div>
 													<?php
