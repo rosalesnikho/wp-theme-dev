@@ -7,8 +7,7 @@
             
             <div class="container clearfix">
 
-                <!-- Post Content
-				============================================= -->
+                <!-- Post Content ============================================= -->
                 <div class="postcontent nobottommargin clearfix">
 
 					<?php
@@ -23,33 +22,33 @@
 							?>
                             <div class="single-post nobottommargin">
 
-                                <!-- Single Post
-											  ============================================= -->
+                                <!-- Single Post ============================================= -->
                                 <div class="entry clearfix">
 
-                                    <!-- Entry Title
-													============================================= -->
+                                    <!-- Entry Title ============================================= -->
                                     <div class="entry-title">
                                         <h2><?php the_title() ?></h2>
-                                    </div><!-- .entry-title end -->
+                                    </div>
+                                    <!-- .entry-title end -->
 
-                                    <!-- Entry Meta
-													============================================= -->
+                                    <!-- Entry Meta ============================================= -->
                                     <ul class="entry-meta clearfix">
-                                        <li><i class="icon-calendar3"></i> <?php echo get_the_date() ?></li>
+                                        <li>
+                                            <i class="icon-calendar3"> <?php echo get_the_date() ?></i>
+                                        </li>
                                         <li>
                                             <a href="<?php echo $author_URL ?>">
-                                                <i class="icon-user"></i> <?php the_author(); ?>
+                                                <i class="icon-user"> <?php the_author(); ?></i>
                                             </a>
                                         </li>
-                                        <li><i class="icon-folder-open"></i> <a href="#"><?php the_category(); ?></a>
+                                        <li>
+                                            <i class="icon-folder-open"></i> <a href="#"><?php the_category(); ?></a>
                                         </li>
                                         <li><a href="#"><i class="icon-comments"></i> <?php comments_number(); ?></a>
                                         </li>
                                     </ul><!-- .entry-meta end -->
 
-                                    <!-- Entry Image
-													============================================= -->
+                                    <!-- Entry Image ============================================= -->
                                     <div class="entry-image">
 
 										<?php
@@ -65,8 +64,7 @@
 										?>
                                     </div><!-- .entry-image end -->
 
-                                    <!-- Entry Content
-													============================================= -->
+                                    <!-- Entry Content ============================================= -->
                                     <div class="entry-content notopmargin">
 
 										<?php
