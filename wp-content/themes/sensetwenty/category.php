@@ -46,12 +46,6 @@
 							<?php
 							previous_posts_link('Newer &rarr;');
 							?>
-                            <!--                            <a href="#" class="btn btn-outline-secondary float-left">-->
-                            <!---->
-                            <!--                            </a>-->
-                            <!--                            <a href="#" class="btn btn-outline-dark float-right">-->
-                            <!---->
-                            <!--                            </a>-->
                         </div>
                     </div>
                     <!-- .pager end -->
